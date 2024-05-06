@@ -1,0 +1,24 @@
+*{
+    margin: none
+}
+.flex-container {
+    display: flex;
+
+    background-color: dodgerblue;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.flex-container> div:hover
+{
+    background-color: beige;
+}
+.flex-container {
+    height: 100px;
+}
